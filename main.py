@@ -2,7 +2,7 @@ import plotly_express as px
 import pandas as pd
 import streamlit as st
 from PIL import Image
-import xlrd as xl
+
 
 
 
