@@ -7,7 +7,7 @@ from PIL import Image
 
 
 
-image1=Image.open('C:/Users\Fawaz Almutairi/Downloads/1612705199068.jpg')
+image1=Image.open('C:/Users/Administrator/Documents/GitHub/main/1612705199068.jpg')
 st.image(image1, width=800)
 
 
@@ -24,7 +24,7 @@ List_kitchens_Jed= ['None','Al Nakeel', 'Al Zahra', 'Falasten', 'Al Safa', ]
 List_Acc_Jed=['None', 'Soundlines(Al Alazizya)']
 List_P_Jed=['None', 'Kitchens', 'Accommodations']
 
-image=Image.open('C:/Users/Fawaz Almutairi/Desktop/download.jpg')
+image=Image.open('C:/Users/Administrator/Documents/GitHub/main/download.jpg')
 st.sidebar.image(image, width=300)
 
 
@@ -61,7 +61,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name:Mohamed Abdulrahman AlAliq   Phone: 0555405759')
                 st.subheader('Balance')
-                source7 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source7 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df7 = pd.read_excel(source7, sheet_name=12, usecols='A:F', index_col=0)
                 df77 = pd.DataFrame(df7)
                 st.write('Payment progress')
@@ -75,7 +75,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.subheader('Balance')
                 st.info('Owner Name:Badrya Suliman Mohamed AlSaif  Phone: 0505258620 ')
-                source5 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source5 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df5 = pd.read_excel(source5, usecols='A:F', sheet_name=7, header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(100)
@@ -88,7 +88,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Nasir Saif Nasir AlQahtani  Phone: 0542417970')
                 st.subheader('Balance')
-                source1 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source1 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df2 = pd.read_excel(source1, usecols='A:F', sheet_name=10, header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(25)
@@ -101,7 +101,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name : Abdullah Mohamed AlShehri  Phone: 0560059491')
                 st.subheader('Balance')
-                source2 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source2 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df2 = pd.read_excel(source2, usecols='A:F', sheet_name=9, header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(20)
@@ -114,7 +114,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Easa Salem Zaid AlTamimi    Phone:0556174000')
                 st.subheader('Balance')
-                source3 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source3 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df3 = pd.read_excel(source3, sheet_name=8, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(100)
@@ -127,7 +127,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Muklid Fingal Sultan AlOtaibi   Phone: 0566667742    ')
                 st.subheader('Balance')
-                source4 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source4 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df4 = pd.read_excel(source4, usecols='A:F', sheet_name=6, header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(100)
@@ -142,7 +142,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Abdulmalik Mohamed almasri   Phone: 0505456116')
                 st.subheader('Balance')
-                source6 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source6 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df6 = pd.read_excel(source6, sheet_name=5, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(25)
@@ -161,7 +161,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name:Abdulrahman Abdualziz AlSudays  Phone: 0553666469')
                 st.subheader('Balance')
-                source20 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source20 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df20 = pd.read_excel(source20, sheet_name=13, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(19)
@@ -174,7 +174,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Akram Wahid Ali Saddiqi  Phone: 0505614548')
                 st.subheader('Balance')
-                source21 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source21 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df21 = pd.read_excel(source21, sheet_name=14, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(17)
@@ -187,7 +187,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Mohhammed Foad AlKhatib  Phone: Not found')
                 st.subheader('Balance')
-                source22 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source22 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df22 = pd.read_excel(source22, sheet_name=16, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(17)
@@ -200,7 +200,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Slem Atiq Al Sarfy  Phone: 0563083330')
                 st.subheader('Balance')
-                source23 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source23 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df23 = pd.read_excel(source23, sheet_name=15, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(20)
@@ -215,7 +215,7 @@ if sel1:
                 st.success('Valid Contract')
                 st.info('Owner Name: Soundlines for contracting Co.  Telephone: 0112291125')
                 st.subheader('Balance')
-                source24 = 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+                source24 = 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
                 df24 = pd.read_excel(source24, sheet_name=11, usecols='A:F', header=0, index_col=0)
                 st.write('Payment progress')
                 st.progress(25)
@@ -235,10 +235,10 @@ if sel1:
 sel= st.checkbox('Summary')
 if sel:
     st.info('Riyadh')
-    ruh = summary1 = pd.read_excel('C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx', usecols='A:G', header=0,
+    ruh = summary1 = pd.read_excel('C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx', usecols='A:G', header=0,
                                    sheet_name=0, index_col=0)
     st.table(ruh)
-    jed = summary2 = pd.read_excel('C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx', usecols='K:P', header=0,
+    jed = summary2 = pd.read_excel('C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx', usecols='K:P', header=0,
                                    sheet_name=0, index_col=0)
     st.info('Jeddah')
     st.table(jed)
@@ -249,7 +249,7 @@ if sel:
 total= st.checkbox('Total Balance All KSA contracts')
 if total:
     st.subheader('Total Balance Until Today')
-    ex= 'C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+    ex= 'C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
     s= pd.read_excel(ex, usecols='B:E', header=0, sheet_name=18)
     st.table(s)
     st.stop()
@@ -268,7 +268,7 @@ details= st.checkbox('Statistic Contracts Info!')
 
 
 if all_inst:
-    excel='C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx'
+    excel='C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx'
     da1= pd.read_excel(excel, usecols='A:D', header=0, sheet_name=2)
     da2 = pd.read_excel(excel, usecols='A:D', header=0, sheet_name=3)
 
@@ -282,7 +282,7 @@ if all_inst:
 
 
 
-details_file = pd.read_excel('C:/Users/Fawaz Almutairi/Desktop/Contractss.xlsx',sheet_name=4 ,usecols='A:E',
+details_file = pd.read_excel('C:/Users/Administrator/Documents/GitHub/main/Contractss.xlsx',sheet_name=4 ,usecols='A:E',
                                      header=0)
 for x in details_file:
     if details:
